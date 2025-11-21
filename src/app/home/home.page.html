@@ -1,12 +1,14 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+  
     <ion-title class="ion-text-center">
       <i>Bienvenido a la página principal de JKC eventos y decoraciones</i>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true"class="ion-padding">
+  
 
   <ion-grid>  
   <ion-row class="ion-text-center">
@@ -20,7 +22,21 @@
     </ion-col>
   </ion-row>
 
-
+  <br>
+  <ion-accordion-group [multiple]="true" [value]="['first', 'third']">
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Paquetes de Decoración</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">
+        Insertar opciones
+      </div>
+      <div class="ion-padding" slot="content">
+        Insertar opciones 2
+      </div>
+    </ion-accordion>
+  </ion-accordion-group>
+  
   <ion-row>
     <ion-col class="ion-text-center">
       <ion-text color="tertiary">
@@ -51,6 +67,7 @@
               La carrera de Tecnologías de la Información forma profesionales con competencias para diseñar, implementar y gestionar soluciones tecnológicas innovadoras en el ámbito de las tecnologías de la información, aplicando conocimientos en programación, bases de datos, redes y seguridad informática.
               </ion-text>
             </p>
+            <ion-img src="assets/img/tec.gif" class="carrera_tecnologias"></ion-img>
           </ion-toolbar>
         </ion-col>
 

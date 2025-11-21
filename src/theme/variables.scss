@@ -1,2 +1,12 @@
 // For information on how to create your own theme, please refer to:
 // https://ionicframework.com/docs/theming/
+
+:root {
+  /* ... otras variables ... */
+  
+  // Cambia el fondo principal de la aplicación
+  --ion-background-color: #F0F0F0; 
+  --ion-background-color-rgb: 240,240,240; 
+  
+  /* ... otras variables ... */
+}
