@@ -37,6 +37,13 @@
   display: block;
   // 3. ¡CRUCIAL! Centra el elemento de bloque horizontalmente.
   margin: 0 auto;
+  // ¡CRUCIAL! Esto hace que los bordes se redondeen.
+  // 50% lo convierte en un círculo (si el ancho y alto son iguales).
+  border-radius: 50%; 
+  
+  // Opcional: Para evitar que partes de la imagen se salgan si es irregular
+  overflow: hidden; 
+  
 }
 
 
@@ -49,6 +56,14 @@
   display: block;
   // 3. ¡CRUCIAL! Centra el elemento de bloque horizontalmente.
   margin: 0 auto;
+
+  // ¡CRUCIAL! Esto hace que los bordes se redondeen.
+  // 50% lo convierte en un círculo (si el ancho y alto son iguales).
+  border-radius: 50%; 
+  
+  // Opcional: Para evitar que partes de la imagen se salgan si es irregular
+  overflow: hidden; 
+  
 }
 
 .motor {
