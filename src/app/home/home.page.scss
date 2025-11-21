@@ -8,6 +8,7 @@
   transform: translateY(-50%);
 }
 
+
 #container strong {
   font-size: 20px;
   line-height: 26px;
@@ -24,4 +25,28 @@
 
 #container a {
   text-decoration: none;
+}
+
+
+.LogoEMP {
+  // Define el ancho. Esto limita la imagen a 150 píxeles de ancho.
+  width: 300px; 
+  // Asegura que la altura se escala proporcionalmente.
+  height: auto;
+  // 2. ¡CRUCIAL! Convierte la imagen en un elemento de bloque para que pueda ser centrado.
+  display: block;
+  // 3. ¡CRUCIAL! Centra el elemento de bloque horizontalmente.
+  margin: 0 auto;
+}
+
+
+.LogoFAC {
+  // Define el ancho. Esto limita la imagen a 150 píxeles de ancho.
+  width: 200px; 
+  // Asegura que la altura se escala proporcionalmente.
+  height: auto;
+  // 2. ¡CRUCIAL! Convierte la imagen en un elemento de bloque para que pueda ser centrado.
+  display: block;
+  // 3. ¡CRUCIAL! Centra el elemento de bloque horizontalmente.
+  margin: 0 auto;
 }
