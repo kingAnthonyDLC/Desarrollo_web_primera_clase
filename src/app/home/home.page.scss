@@ -50,3 +50,14 @@
   // 3. ¡CRUCIAL! Centra el elemento de bloque horizontalmente.
   margin: 0 auto;
 }
+
+.motor {
+  // Define el ancho. Esto limita la imagen a 150 píxeles de ancho.
+  width: 400px; 
+  // Asegura que la altura se escala proporcionalmente.
+  height: auto;
+  // 2. ¡CRUCIAL! Convierte la imagen en un elemento de bloque para que pueda ser centrado.
+  display: block;
+  // 3. ¡CRUCIAL! Centra el elemento de bloque horizontalmente.
+  margin: 0 auto;
+}
