@@ -1,0 +1,100 @@
+
+ion-card {
+
+    border-radius: 10%;
+    box-shadow: 0 4px 8px rgba(241, 245, 1, 0.384);
+
+}
+
+ion-card.especial{
+  width: 50%;
+  margin: 150px auto;
+    border-radius: 5%;      /* tu estilo personalizado */
+  box-shadow: none;
+  background-color: #ff0202;
+}
+
+ion-card.estilosAP{
+    background-color: #f8f7f7;
+}
+
+ion-item {
+  --padding-start: 0;
+}
+
+.LogoEMP2 {
+  // Define el ancho. Esto limita la imagen a 150 píxeles de ancho.
+  width: 300px; 
+  // Asegura que la altura se escala proporcionalmente.
+  height: auto;
+  // 2. ¡CRUCIAL! Convierte la imagen en un elemento de bloque para que pueda ser centrado.
+  display: block;
+  // 3. ¡CRUCIAL! Centra el elemento de bloque horizontalmente.
+  margin: 0 auto;
+  // ¡CRUCIAL! Esto hace que los bordes se redondeen.
+  // 50% lo convierte en un círculo (si el ancho y alto son iguales).
+  border-radius: 50%; 
+  
+  // Opcional: Para evitar que partes de la imagen se salgan si es irregular
+  overflow: hidden; 
+  
+}
+
+.LogoU {
+  // Define el ancho. Esto limita la imagen a 150 píxeles de ancho.
+  width: 300px; 
+  // Asegura que la altura se escala proporcionalmente.
+  height: auto;
+  // 2. ¡CRUCIAL! Convierte la imagen en un elemento de bloque para que pueda ser centrado.
+  display: block;
+  // 3. ¡CRUCIAL! Centra el elemento de bloque horizontalmente.
+  margin: 0 auto;
+  // ¡CRUCIAL! Esto hace que los bordes se redondeen.
+  // 50% lo convierte en un círculo (si el ancho y alto son iguales).
+   
+  
+  // Opcional: Para evitar que partes de la imagen se salgan si es irregular
+  overflow: hidden; 
+  
+}
+
+.facu {
+  // Define el ancho. Esto limita la imagen a 150 píxeles de ancho.
+  width: 300px; 
+  // Asegura que la altura se escala proporcionalmente.
+  height: auto;
+  // 2. ¡CRUCIAL! Convierte la imagen en un elemento de bloque para que pueda ser centrado.
+  display: block;
+  // 3. ¡CRUCIAL! Centra el elemento de bloque horizontalmente.
+  margin: 0 auto;
+  // ¡CRUCIAL! Esto hace que los bordes se redondeen.
+  // 50% lo convierte en un círculo (si el ancho y alto son iguales).
+  border-radius: 50%; 
+  
+  // Opcional: Para evitar que partes de la imagen se salgan si es irregular
+  overflow: hidden; 
+  
+}
+.electronicagif {
+  // Define el ancho. Esto limita la imagen a 150 píxeles de ancho.
+  width: 300px; 
+  // Asegura que la altura se escala proporcionalmente.
+  height: auto;
+  // 2. ¡CRUCIAL! Convierte la imagen en un elemento de bloque para que pueda ser centrado.
+  display: block;
+  // 3. ¡CRUCIAL! Centra el elemento de bloque horizontalmente.
+  margin: 0 auto;
+  // ¡CRUCIAL! Esto hace que los bordes se redondeen.
+  // 50% lo convierte en un círculo (si el ancho y alto son iguales).
+  border-radius: 50%; 
+  
+  // Opcional: Para evitar que partes de la imagen se salgan si es irregular
+  overflow: hidden; 
+  
+}
+
+h1, h2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
