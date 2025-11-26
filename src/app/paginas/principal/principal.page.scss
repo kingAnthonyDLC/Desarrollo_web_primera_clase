@@ -1,11 +1,51 @@
 
-
+ion-content {
+    /* Fondo con un color sólido, por ejemplo, un azul cielo suave */
+    --background: linear-gradient(to bottom, #daec1b, #BBDEFB);
+    
+    /* O un gris tenue, si lo prefieres */
+    /* --background: #F0F0F0; */
+}
 
 ion-card {
 
-    border-radius: 10%;
-    box-shadow: 0 4px 8px rgba(241, 245, 1, 0.384);
+    border-radius: 15%;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 20px auto; // Margen para separarla del fondo
+    max-width: 400px; // Controla el ancho
+    background: linear-gradient(to top right, #f9f6ff, #6AAFFF); // Degradado de azul
+    color: rgb(7, 7, 7); // Asegura que el texto sea blanco para contrastar
+}
 
+ion-card-title {
+  font-family: 'Montserrat', sans-serif; // Una fuente más moderna
+  font-size: 2.2rem; // Un título más grande
+  font-weight: bold; // Más grueso
+  color: rgb(15, 15, 15); // Asegura que el título sea blanco
+  margin-bottom: 5px; // Pequeño margen debajo del título
+}
+
+ion-card-subtitle {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.8); // Subtítulo más suave
+}
+
+ion-button {
+  margin-top: 20px;
+  --background: #FFD700; // Color dorado/amarillo
+  --color: #080707; // Texto oscuro
+  --border-radius: 8px; // Bordes redondeados
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+// Estilo para el precio
+.price-tag {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #FFD700; // Un dorado/amarillo para el precio
+  margin: 15px 0;
+  display: block; // Asegura que ocupe su propia línea
 }
 
 ion-card.especial{
@@ -26,7 +66,7 @@ ion-item {
 
 .LogoEMP2 {
   // Define el ancho. Esto limita la imagen a 150 píxeles de ancho.
-  width: 300px; 
+  width: 250px; 
   // Asegura que la altura se escala proporcionalmente.
   height: auto;
   // 2. ¡CRUCIAL! Convierte la imagen en un elemento de bloque para que pueda ser centrado.
@@ -35,7 +75,7 @@ ion-item {
   margin: 0 auto;
   // ¡CRUCIAL! Esto hace que los bordes se redondeen.
   // 50% lo convierte en un círculo (si el ancho y alto son iguales).
-  border-radius: 50%; 
+  border-radius: 10%; 
   
   // Opcional: Para evitar que partes de la imagen se salgan si es irregular
   overflow: hidden; 
@@ -54,7 +94,7 @@ ion-item {
   // ¡CRUCIAL! Esto hace que los bordes se redondeen.
   // 50% lo convierte en un círculo (si el ancho y alto son iguales).
    
-  
+  border-radius: 10%;
   // Opcional: Para evitar que partes de la imagen se salgan si es irregular
   overflow: hidden; 
   
@@ -62,7 +102,7 @@ ion-item {
 
 .facu {
   // Define el ancho. Esto limita la imagen a 150 píxeles de ancho.
-  width: 300px; 
+  width: 280px; 
   // Asegura que la altura se escala proporcionalmente.
   height: auto;
   // 2. ¡CRUCIAL! Convierte la imagen en un elemento de bloque para que pueda ser centrado.
@@ -71,7 +111,7 @@ ion-item {
   margin: 0 auto;
   // ¡CRUCIAL! Esto hace que los bordes se redondeen.
   // 50% lo convierte en un círculo (si el ancho y alto son iguales).
-  border-radius: 50%; 
+  border-radius: 5%; 
   
   // Opcional: Para evitar que partes de la imagen se salgan si es irregular
   overflow: hidden; 
@@ -79,7 +119,7 @@ ion-item {
 }
 .electronicagif {
   // Define el ancho. Esto limita la imagen a 150 píxeles de ancho.
-  width: 300px; 
+  width: 220px; 
   // Asegura que la altura se escala proporcionalmente.
   height: auto;
   // 2. ¡CRUCIAL! Convierte la imagen en un elemento de bloque para que pueda ser centrado.
@@ -88,7 +128,7 @@ ion-item {
   margin: 0 auto;
   // ¡CRUCIAL! Esto hace que los bordes se redondeen.
   // 50% lo convierte en un círculo (si el ancho y alto son iguales).
-  border-radius: 50%; 
+  border-radius: 10%; 
   
   // Opcional: Para evitar que partes de la imagen se salgan si es irregular
   overflow: hidden; 
@@ -99,4 +139,22 @@ h1, h2 {
     margin-top: 5%;
     margin-bottom: 5%;
 
+}
+
+.JKCeventos {
+  // Define el ancho. Esto limita la imagen a 150 píxeles de ancho.
+  width: 280px; 
+  // Asegura que la altura se escala proporcionalmente.
+  height: auto;
+  // 2. ¡CRUCIAL! Convierte la imagen en un elemento de bloque para que pueda ser centrado.
+  display: block;
+  // 3. ¡CRUCIAL! Centra el elemento de bloque horizontalmente.
+  margin: 0 auto;
+  // ¡CRUCIAL! Esto hace que los bordes se redondeen.
+  // 50% lo convierte en un círculo (si el ancho y alto son iguales).
+  border-radius: 5%; 
+  
+  // Opcional: Para evitar que partes de la imagen se salgan si es irregular
+  overflow: hidden; 
+  
 }
