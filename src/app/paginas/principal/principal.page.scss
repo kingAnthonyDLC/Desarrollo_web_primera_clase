@@ -84,7 +84,7 @@ ion-item {
 
 .LogoU {
   // Define el ancho. Esto limita la imagen a 150 píxeles de ancho.
-  width: 300px; 
+  width: 100px; 
   // Asegura que la altura se escala proporcionalmente.
   height: auto;
   // 2. ¡CRUCIAL! Convierte la imagen en un elemento de bloque para que pueda ser centrado.
@@ -143,7 +143,7 @@ h1, h2 {
 
 .JKCeventos {
   // Define el ancho. Esto limita la imagen a 150 píxeles de ancho.
-  width: 280px; 
+  width: 200px; 
   // Asegura que la altura se escala proporcionalmente.
   height: auto;
   // 2. ¡CRUCIAL! Convierte la imagen en un elemento de bloque para que pueda ser centrado.
@@ -157,4 +157,16 @@ h1, h2 {
   // Opcional: Para evitar que partes de la imagen se salgan si es irregular
   overflow: hidden; 
   
+}
+
+//click en la tarjeta 1
+.tarjeta1{
+  cursor: pointer;
+}
+
+.carg{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  padding: 10px;
 }

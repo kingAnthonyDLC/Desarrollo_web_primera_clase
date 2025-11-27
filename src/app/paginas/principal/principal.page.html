@@ -5,151 +5,22 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-row>
-    <ion-col>
-      <ion-card (click)="irvermas()">
-        <ion-card-content class="ion-text-center">
-          <h1><i>JKC eventos y decoraciones</i></h1>
-          
-        
-        <ion-img src="assets/img/LOGO1.png" class="JKCeventos"></ion-img>
-        <i>Brindando un servicio de calidad y confianza a nuestros clientes.</i>
-        </ion-card-content>
-      </ion-card>
-    </ion-col>
-  </ion-row>
+   <div class="carg">
 
+    <ion-card class="BodaSalinas" *ngFor="let p of productos" (click)="irvermas(p)">
 
-  <ion-row class="ion-align-items-center">  
-    <ion-col>
-      <ion-card color="undefined">
-        <ion-card-header>
-          <ion-card-title class="ion-text-center" color="danger">
-            <h1><i>Artículo 1</i></h1>
-          </ion-card-title>
-          <ion-card-subtitle class="ion-text-center">
-          Este articulo incluye las siguientes características
-          </ion-card-subtitle>
-      </ion-card-header>
+    <img [src]="p.imagen" class="JKCeventos"/>
 
-        <ion-card-content class="ion-text-center">
-          <h2>Precio: $150</h2>
-        </ion-card-content>
-        <ion-img src="assets/img/boda.jpg" class="LogoEMP2"></ion-img>
-        <!-- Botón -->
-        <!-- Botón -->
-        <ion-button expand="block" color="primary" style="margin-top: 15px;">
-       <i>Añadir al carrito</i>
-        </ion-button>
-      </ion-card>
-    </ion-col>
-    <ion-col>
-      <ion-card>
-        <div class="row">
-        
-        <div class="text">
-          <ion-card-header>
-            <ion-card-title class="ion-text-center" color="danger">
-              <h1><i>Art[iculo 2</i></h1>
-            </ion-card-title>
-            <ion-card-subtitle class="ion-text-center">
-              Fecha del evento
-            </ion-card-subtitle>
-          </ion-card-header>
+    <ion-card-header>
 
-          <ion-card-content class="ion-text-center">
-            <h2>Precio: $200</h2>
-          </ion-card-content>
-        </div>
+      <ion-card-title class="titulo">{{p.titulo}}</ion-card-title>
 
-        <div class="image">
-          <ion-img src="assets/img/Grad.jpg" class="LogoU"></ion-img>
-        </div>
-      <!-- Botón -->
-        <ion-button expand="block" color="primary" style="margin-top: 15px;">
-        <i>Añadir al carrito</i>
-        </ion-button>
-      </div>
-      </ion-card>
-    </ion-col>
+      <ion-card-subtitle color="danger" class="precio">Precio: $ {{p.precio}}</ion-card-subtitle>
 
-    <ion-col>
-      <ion-card class="estilosAP" color="warning">
-        <ion-card-header>
-          <ion-card-title class="ion-text-center" color="danger">
-            <h1>Presentación</h1>
-          </ion-card-title>
-          <ion-card-subtitle class="ion-text-center">
-            <h2>Fecha del evento</h2>
-          </ion-card-subtitle>
-        </ion-card-header>
+    </ion-card-header>
 
-        <ion-card-content class="ion-text-center">
-          Precio: $150
-          descuento para clientes frecuentes: 10%
-        </ion-card-content>
-        <ion-img src="assets/img/cumpleaños2.jpg" class="facu"></ion-img>
-        <!-- Botón -->
-        <ion-button expand="block" color="primary" style="margin-top: 15px;">
-        <i>Añadir al carrito</i>
-        </ion-button>
-      </ion-card>
-    </ion-col>
-    <ion-col>
-      <ion-card color="success">
-        <div class="row">
-        
-        <div class="text">
-          <ion-card-header>
-            <ion-card-title class="ion-text-center" color="danger">
-              <h1>Presentación</h1>
-            </ion-card-title>
-            <ion-card-subtitle class="ion-text-center">
-              <h2>Fecha del evento</h2>
-            </ion-card-subtitle>
-          </ion-card-header>
+    </ion-card>
 
-          <ion-card-content class="ion-text-center">
-            Esta imagen representa el esfuerzo de dos personas que coincidieron en la vida.
-          </ion-card-content>
-        </div>
-
-        <div class="image">
-          <ion-img src="assets/img/navidad6.jpg" class="electronicagif"></ion-img>
-        </div>
-
-      </div>
-        <!-- Botón -->
-        <ion-button expand="block" color="primary" style="margin-top: 15px;" shape="round">
-        <i>Añadir al carrito</i>
-        </ion-button>
-      </ion-card>
-    </ion-col>
-  </ion-row>
-
-<ion-card class="especial">
-  <ion-card-header>
-    <ion-card-title>Card Title</ion-card-title>
-    <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
-  </ion-card-header>
-  <ion-card-content>
-    <ion-list>
-      <ion-item>
-        <ion-thumbnail slot="start">
-          <img src="assets/img/tec.gif" />
-        </ion-thumbnail>
-        <ion-label>Item</ion-label>
-      </ion-item>
-
-      <ion-item lines="none">
-        <ion-thumbnail slot="start">
-          <img src="assets/img/tec.gif" />
-        </ion-thumbnail>
-        <ion-label>Item</ion-label>
-      </ion-item>
-    </ion-list>
-  </ion-card-content>
-</ion-card>
-
+  </div>
 </ion-content>
  
