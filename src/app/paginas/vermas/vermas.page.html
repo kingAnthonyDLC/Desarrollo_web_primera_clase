@@ -1,30 +1,20 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>vermas</ion-title>
+  <ion-toolbar (click)="irprincipal()">
+    <ion-buttons slot="start">
+      <ion-img src="assets/img/atras.png" class="retro"></ion-img>
+    </ion-buttons>
+    <ion-title><i> Retroceder </i></ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   
-  <div class="registro-card">
-    <h2 class="texto-cursiva titulo-registro">REGISTRO</h2>
-
-    <div class="campos-container">
-        <label for="usuario" class="texto-cursiva">Usuario</label>
-        <input type="text" id="usuario" name="usuario">
-
-        <label for="contrasena" class="texto-cursiva">Contraseña</label>
-        <input type="password" id="contrasena" name="contrasena">
-    </div>
-
-    <button class="boton-aceptar texto-cursiva">ACEPTAR</button>
-</div>
 
 <img [src]="producto.imagen">
-<div>
-  <h2>
-    askdjgasodj
-  </h2>
-  
+<div class="ion-text-center">
+  <i>
+  {{producto.titulo}}
+  {{producto.precio}}
+  </i>
 </div>
 </ion-content>

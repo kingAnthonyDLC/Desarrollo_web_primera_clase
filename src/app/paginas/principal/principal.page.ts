@@ -3,6 +3,7 @@ import { CommonModule, ɵnormalizeQueryParams } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonContent, IonHeader, IonTitle, IonToolbar, IonCard, IonCardSubtitle, IonCardTitle, IonButton, IonCardHeader } from '@ionic/angular/standalone';
 import { Router } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-principal',
@@ -52,7 +53,8 @@ export class PrincipalPage implements OnInit {
   ]
 
   constructor(
-    private router: Router
+    private router: Router,
+    private route: ActivatedRoute
   ) { }
     
   
